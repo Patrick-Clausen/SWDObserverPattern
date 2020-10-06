@@ -6,7 +6,7 @@ namespace StockTrading
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Stonks!");
         }
     }
 }
