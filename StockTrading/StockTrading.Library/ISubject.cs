@@ -7,5 +7,7 @@ namespace StockTrading.Library
         //void Attach(NormalSubject obs);
         void Detach(IObserver obs);
         void Attach(IObserver obs);
+
+        object Get();
     }
 }

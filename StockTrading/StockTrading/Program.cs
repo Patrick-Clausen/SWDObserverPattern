@@ -1,4 +1,5 @@
 ﻿using System;
+using StockTrading.Library;
 
 namespace StockTrading
 {
@@ -6,7 +7,11 @@ namespace StockTrading
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Stonks!");
+            Stock vestasStock = new Stock("VESTAS", 52.62);
+            Stock teslaStock = new Stock("TESLA" , 346.12);
+            Stock elgigantenStock = new Stock("ELGIGANTEN", 43.1);
+
+            Portfolio 
         }
     }
 }

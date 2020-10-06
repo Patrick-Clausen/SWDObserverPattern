@@ -2,7 +2,7 @@
 
 namespace StockTrading.Library
 {
-    abstract class NormalSubject : ISubject
+    public abstract class NormalSubject : ISubject
     {
         private List<IObserver> observers = new List<IObserver>();
         public void Attach(IObserver obs)
@@ -19,9 +19,10 @@ namespace StockTrading.Library
         {
             foreach (var observer in observers)
             {
-                observer.Update();
+                observer.Update(this);
             }
         }
 
+        public abstract object Get();
     }
 }
