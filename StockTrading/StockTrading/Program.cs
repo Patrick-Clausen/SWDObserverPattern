@@ -11,7 +11,7 @@ namespace StockTrading
             Stock teslaStock = new Stock("TESLA" , 346.12);
             Stock elgigantenStock = new Stock("ELGIGANTEN", 43.1);
 
-            Portfolio 
+            //Portfolio 
         }
     }
 }
